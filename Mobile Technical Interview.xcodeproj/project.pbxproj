@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		B36646472198FFCC00C56A15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36646462198FFCC00C56A15 /* AppDelegate.swift */; };
-		B36646492198FFCC00C56A15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36646482198FFCC00C56A15 /* ViewController.swift */; };
 		B366464C2198FFCC00C56A15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B366464A2198FFCC00C56A15 /* Main.storyboard */; };
 		B366464E2198FFCE00C56A15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B366464D2198FFCE00C56A15 /* Assets.xcassets */; };
 		B36646512198FFCE00C56A15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B366464F2198FFCE00C56A15 /* LaunchScreen.storyboard */; };
 		B366465C2198FFCE00C56A15 /* Mobile_Technical_InterviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B366465B2198FFCE00C56A15 /* Mobile_Technical_InterviewTests.swift */; };
 		B36646672198FFCE00C56A15 /* Mobile_Technical_InterviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36646662198FFCE00C56A15 /* Mobile_Technical_InterviewUITests.swift */; };
+		B3A9475821991FEA00CE6D63 /* GLMainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A9475721991FEA00CE6D63 /* GLMainTableViewController.swift */; };
+		B3A9475A219920DF00CE6D63 /* GLRemoteListManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A94759219920DF00CE6D63 /* GLRemoteListManager.swift */; };
+		B3A9475C21992C0600CE6D63 /* GLListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A9475B21992C0600CE6D63 /* GLListCell.swift */; };
+		B3A9475E21992EF700CE6D63 /* GLDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A9475D21992EF700CE6D63 /* GLDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,6 @@
 /* Begin PBXFileReference section */
 		B36646432198FFCC00C56A15 /* Mobile Technical Interview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mobile Technical Interview.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B36646462198FFCC00C56A15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B36646482198FFCC00C56A15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B366464B2198FFCC00C56A15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B366464D2198FFCE00C56A15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B36646502198FFCE00C56A15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,10 @@
 		B36646622198FFCE00C56A15 /* Mobile Technical InterviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mobile Technical InterviewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B36646662198FFCE00C56A15 /* Mobile_Technical_InterviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobile_Technical_InterviewUITests.swift; sourceTree = "<group>"; };
 		B36646682198FFCE00C56A15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3A9475721991FEA00CE6D63 /* GLMainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GLMainTableViewController.swift; sourceTree = "<group>"; };
+		B3A94759219920DF00CE6D63 /* GLRemoteListManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GLRemoteListManager.swift; sourceTree = "<group>"; };
+		B3A9475B21992C0600CE6D63 /* GLListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GLListCell.swift; sourceTree = "<group>"; };
+		B3A9475D21992EF700CE6D63 /* GLDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GLDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +103,13 @@
 		B36646452198FFCC00C56A15 /* Mobile Technical Interview */ = {
 			isa = PBXGroup;
 			children = (
-				B36646462198FFCC00C56A15 /* AppDelegate.swift */,
-				B36646482198FFCC00C56A15 /* ViewController.swift */,
+				B3A9475221991C4F00CE6D63 /* Support Files */,
 				B366464A2198FFCC00C56A15 /* Main.storyboard */,
-				B366464D2198FFCE00C56A15 /* Assets.xcassets */,
-				B366464F2198FFCE00C56A15 /* LaunchScreen.storyboard */,
-				B36646522198FFCE00C56A15 /* Info.plist */,
+				B36646462198FFCC00C56A15 /* AppDelegate.swift */,
+				B3A9475721991FEA00CE6D63 /* GLMainTableViewController.swift */,
+				B3A9475B21992C0600CE6D63 /* GLListCell.swift */,
+				B3A9475D21992EF700CE6D63 /* GLDetailViewController.swift */,
+				B3A94759219920DF00CE6D63 /* GLRemoteListManager.swift */,
 			);
 			path = "Mobile Technical Interview";
 			sourceTree = "<group>";
@@ -123,6 +130,16 @@
 				B36646682198FFCE00C56A15 /* Info.plist */,
 			);
 			path = "Mobile Technical InterviewUITests";
+			sourceTree = "<group>";
+		};
+		B3A9475221991C4F00CE6D63 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B366464D2198FFCE00C56A15 /* Assets.xcassets */,
+				B366464F2198FFCE00C56A15 /* LaunchScreen.storyboard */,
+				B36646522198FFCE00C56A15 /* Info.plist */,
+			);
+			path = "Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +273,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B36646492198FFCC00C56A15 /* ViewController.swift in Sources */,
+				B3A9475821991FEA00CE6D63 /* GLMainTableViewController.swift in Sources */,
+				B3A9475E21992EF700CE6D63 /* GLDetailViewController.swift in Sources */,
+				B3A9475A219920DF00CE6D63 /* GLRemoteListManager.swift in Sources */,
+				B3A9475C21992C0600CE6D63 /* GLListCell.swift in Sources */,
 				B36646472198FFCC00C56A15 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,7 +454,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RFPC285CSM;
-				INFOPLIST_FILE = "Mobile Technical Interview/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Mobile Technical Interview/Support Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,7 +472,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RFPC285CSM;
-				INFOPLIST_FILE = "Mobile Technical Interview/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Mobile Technical Interview/Support Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
