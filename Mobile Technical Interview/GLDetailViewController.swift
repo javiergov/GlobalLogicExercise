@@ -19,8 +19,7 @@ class GLDetailViewController: UIViewController {
         }}
     
     override func viewDidLoad() {
-        super.viewDidLoad()
-        print("view did load ")
+        super.viewDidLoad()        
         self.descriptionTextView.textColor = UIColor.darkText
         updateDetailsWithInformation()
     }
